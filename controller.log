@@ -1,0 +1,809 @@
+2021-05-30 00:27:46,386 : INFO : controller : load_config : loading Config file.
+2021-05-30 00:27:46,386 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 00:27:46,386 : INFO : controller : main : Extracting xml source file url
+2021-05-30 00:27:46,386 : INFO : controller : main : Extracting csv file path
+2021-05-30 00:27:46,386 : INFO : controller : main : Extracting xml file download path
+2021-05-30 00:27:46,387 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2021-05-30 00:27:46,387 : INFO : controller : main : Calling download function
+2021-05-30 00:27:46,387 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 00:27:52,023 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 00:27:52,024 : INFO : controller : main : Calling parse_source_xml function
+2021-05-30 00:27:52,024 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 00:27:52,025 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 00:27:52,025 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 00:27:52,025 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 00:27:52,025 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 00:27:52,025 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 00:27:52,025 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 00:27:52,025 : INFO : controller : main : Calling download function
+2021-05-30 00:27:52,025 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 00:27:53,602 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 00:27:53,603 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 00:27:53,958 : INFO : helper_functions : unzip_file : Compressed file extracted
+2021-05-30 00:27:53,958 : INFO : helper_functions : unzip_file : Removing the compressed file
+2021-05-30 00:27:53,958 : INFO : helper_functions : unzip_file : Compressed file removed
+2021-05-30 00:27:53,958 : INFO : controller : main : Calling create csv function
+2021-05-30 00:27:53,958 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 00:27:53,960 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 00:27:53,960 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 00:28:00,946 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 00:28:01,151 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 00:28:01,212 : INFO : utils : _init_num_threads : NumExpr defaulting to 8 threads.
+2021-05-30 00:28:01,243 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 00:28:01,807 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2021-05-30 00:28:01,922 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2021-05-30 00:28:06,711 : INFO : helper_functions : aws_s3_upload : File uploaded successfully to s3 bucket
+2021-05-30 01:18:23,064 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:18:23,162 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:26:15,252 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:26:15,252 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:26:49,710 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:26:49,710 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:32:05,266 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:32:05,267 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:32:05,267 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:32:07,789 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:41:37,509 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:41:37,510 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:41:37,510 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:41:38,380 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:43:43,018 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:43:43,019 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:43:43,019 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:43:46,520 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:49:41,375 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:49:41,376 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:50:10,760 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:50:10,760 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:50:10,761 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:50:14,306 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:50:50,900 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:50:50,901 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:50:50,903 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:50:51,930 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:51:05,151 : INFO : controller : load_config : loading Config file.
+2021-05-30 01:51:05,153 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 01:51:05,153 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:51:06,559 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:51:06,559 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:51:08,805 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 01:54:27,727 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 01:54:29,118 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:01:46,571 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:01:46,571 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:01:46,573 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:01:50,495 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:01:50,496 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:15,471 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:02:15,472 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:02:15,473 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:19,076 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:02:19,076 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:19,601 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:22,119 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:02:48,496 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:02:48,497 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:02:48,498 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:49,865 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:02:49,865 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:50,639 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:51,333 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:02:51,333 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:02:52,122 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:03:22,961 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:03:22,962 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:03:22,962 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:03:24,388 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:03:24,388 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:03:25,296 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:03:26,146 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:03:26,146 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:03:26,835 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:05:30,746 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:05:30,746 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:05:30,747 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:05:32,375 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:05:32,376 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:05:33,311 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:05:34,109 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:05:34,109 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:05:34,912 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:09:18,961 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:09:18,962 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:09:18,963 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:20,990 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:09:20,990 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:21,733 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:23,404 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:09:23,404 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:25,945 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:09:42,938 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:09:42,939 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:09:42,939 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:43,717 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:09:43,718 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:44,180 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:44,914 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:09:44,914 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:09:45,818 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:12:24,066 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:12:24,066 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:12:24,067 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:12:25,646 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:12:25,646 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:12:26,376 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:12:27,085 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:12:27,085 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:12:27,787 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:19:29,706 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:19:29,707 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:19:29,708 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:19:31,891 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:19:31,891 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:19:31,892 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 13] Permission denied: 'D:\\SteelEyeAssignment\\xml_files'
+2021-05-30 02:21:24,587 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:21:24,587 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:21:24,587 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:21:26,526 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:21:26,527 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:21:26,527 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 13] Permission denied: 'D:\\SteelEyeAssignment\\xml_files'
+2021-05-30 02:22:22,242 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:22:22,243 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:22:22,244 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:22:25,908 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:22:25,908 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:22:25,921 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:22:25,921 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:22:25,921 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:22:25,921 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:22:25,921 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:22:25,921 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:23:38,065 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:23:38,065 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:23:38,066 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:23:40,192 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:23:40,192 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:23:40,907 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:23:43,499 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:23:43,499 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:23:45,736 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:23:45,737 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:23:45,738 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:23:45,738 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:23:45,738 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:23:45,738 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:23:45,738 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:23:45,738 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:26:33,522 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:26:33,523 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:26:33,523 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:26:36,130 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:26:36,130 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:26:36,922 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:26:38,024 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:26:38,024 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:26:39,008 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:26:39,008 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:26:39,009 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:26:39,010 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:26:39,010 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:26:39,010 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:26:39,010 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:26:39,010 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:26:39,010 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:27:08,165 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:27:08,165 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:27:08,165 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:11,775 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:27:11,775 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:12,972 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:14,263 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:27:14,263 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:16,706 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:27:16,707 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:27:16,708 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:27:16,708 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:27:28,151 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:27:28,151 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:27:28,152 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:29,035 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:27:29,035 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:29,779 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:31,854 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:27:31,854 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:27:34,522 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:27:34,523 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:27:34,523 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:27:34,524 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:27:34,524 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:27:34,524 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:27:34,524 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:27:34,524 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:27:34,524 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:27:34,524 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:40:45,496 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:40:45,496 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:40:45,497 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:40:49,127 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:40:49,128 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:40:50,371 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:40:52,913 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:40:52,913 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:40:54,068 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:40:54,068 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:40:54,069 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:40:54,069 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:40:54,070 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:40:54,408 : INFO : helper_functions : unzip_file : Compressed file extracted
+2021-05-30 02:40:54,408 : INFO : helper_functions : unzip_file : Removing the compressed file
+2021-05-30 02:40:54,409 : INFO : helper_functions : unzip_file : Compressed file removed
+2021-05-30 02:40:54,409 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:40:54,409 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 02:43:20,135 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:43:20,136 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:43:20,136 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:43:21,672 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:43:21,673 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:43:22,662 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:43:24,403 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:43:24,404 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:43:25,648 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:43:25,649 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:43:25,649 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:43:25,649 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:43:25,649 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:43:25,649 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:43:25,650 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:43:25,650 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:43:25,650 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:43:25,650 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:43:25,651 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:43:25,651 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 02:51:25,386 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:51:25,387 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:51:25,388 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:51:27,948 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:51:27,948 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:51:28,388 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:51:29,089 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:51:29,090 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:51:29,867 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:51:29,868 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:51:29,869 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:51:29,869 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:51:29,870 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:51:29,870 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 02:51:57,323 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:51:57,324 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:51:57,324 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:51:59,530 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:51:59,531 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:00,648 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:02,603 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:52:02,603 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:03,360 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:52:03,361 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:52:03,362 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:52:03,362 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:52:03,363 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:52:03,363 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 02:52:42,386 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:52:42,387 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:52:42,387 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 02:52:42,426 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 02:52:42,426 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 02:52:49,989 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 02:52:50,216 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 02:52:50,298 : INFO : utils : _init_num_threads : NumExpr defaulting to 8 threads.
+2021-05-30 02:52:50,332 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 02:52:50,887 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:52,507 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:52:52,507 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:54,169 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:56,266 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:52:56,266 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:52:58,294 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:52:58,295 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:52:58,295 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:52:58,295 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:52:58,295 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:52:58,295 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:52:58,295 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:52:58,296 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:52:58,296 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:52:58,296 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:52:58,296 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:52:58,296 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 02:53:20,900 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:53:20,901 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:53:20,901 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 02:53:20,902 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 02:53:20,902 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 02:53:27,695 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 02:53:27,903 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 02:53:27,990 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 02:53:28,539 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:53:29,246 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:53:29,247 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:53:29,687 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:53:30,900 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:53:30,900 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:53:32,212 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:53:32,213 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:53:32,213 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:53:32,213 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:53:32,214 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:53:32,214 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:53:32,214 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:53:32,214 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:53:32,214 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:53:32,214 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:53:32,214 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:53:32,214 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 02:55:31,101 : INFO : controller : load_config : loading Config file.
+2021-05-30 02:55:31,102 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 02:55:31,102 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 02:55:31,103 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 02:55:31,103 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 02:55:38,316 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 02:55:38,524 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 02:55:38,609 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 02:55:39,168 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 02:55:39,169 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'somerandomfile'
+2021-05-30 02:55:39,169 : INFO : helper_functions : create_csv : Creating CSV file path
+2021-05-30 02:55:39,169 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 02:55:39,170 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 02:55:39,171 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 02:55:45,920 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 02:55:46,127 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 02:55:46,214 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 02:55:46,766 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:55:49,987 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:55:49,988 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:55:51,318 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:55:53,079 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 02:55:53,079 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 02:55:55,159 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 02:55:55,160 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 02:55:55,161 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 02:55:55,161 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 02:55:55,162 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 02:55:55,162 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 03:06:58,387 : INFO : controller : load_config : loading Config file.
+2021-05-30 03:06:58,387 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 03:06:58,388 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:06:58,389 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 03:06:58,389 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 03:07:06,105 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 03:07:06,327 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 03:07:06,416 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 03:07:07,044 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:07:10,301 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:07:10,301 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:07:11,061 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:07:13,027 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:07:13,027 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:07:14,536 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 03:07:14,537 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:07:14,537 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 03:07:14,537 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 03:07:14,537 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 03:07:14,538 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 03:07:14,538 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 03:07:14,538 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 03:07:14,538 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:07:14,538 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 03:07:14,538 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 03:07:14,539 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 03:13:42,586 : INFO : controller : load_config : loading Config file.
+2021-05-30 03:13:42,586 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 03:13:42,586 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:13:42,588 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 03:13:42,588 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 03:13:50,520 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 03:13:50,746 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 03:13:50,833 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 03:13:51,415 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:13:51,415 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'somerandomfile'
+2021-05-30 03:13:51,415 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:13:51,417 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 03:13:51,417 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 03:13:59,737 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 03:13:59,945 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 03:14:00,040 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 03:14:00,041 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\kqcA CK j \\DLTINS_20210117_01of01.csv'
+2021-05-30 03:14:00,342 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:14:04,902 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:14:04,903 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:14:07,164 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:14:08,540 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:14:08,541 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:14:09,559 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 03:14:09,559 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 03:14:09,560 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:14:09,560 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 03:14:09,562 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 03:14:09,562 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\DLTINS_20210117_01of01.zip'
+2021-05-30 03:16:07,482 : INFO : controller : load_config : loading Config file.
+2021-05-30 03:16:07,483 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 03:16:07,483 : INFO : controller : main : Extracting xml source file url
+2021-05-30 03:16:07,483 : INFO : controller : main : Extracting csv file path
+2021-05-30 03:16:07,483 : INFO : controller : main : Extracting xml file download path
+2021-05-30 03:16:07,483 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2021-05-30 03:16:07,483 : INFO : controller : main : Calling download function
+2021-05-30 03:16:07,484 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:16:09,510 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:16:09,510 : INFO : controller : main : Calling parse_source_xml function
+2021-05-30 03:16:09,510 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:16:09,511 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 03:16:09,511 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 03:16:09,511 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 03:16:09,511 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 03:16:09,511 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 03:16:09,511 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 03:16:09,511 : INFO : controller : main : Calling download function
+2021-05-30 03:16:09,511 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:16:11,169 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:16:11,170 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 03:16:11,524 : INFO : helper_functions : unzip_file : Compressed file extracted
+2021-05-30 03:16:11,525 : INFO : controller : main : Calling create csv function
+2021-05-30 03:16:11,525 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:16:11,526 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 03:16:11,526 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 03:16:18,662 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 03:16:18,868 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 03:16:18,958 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 03:16:19,565 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2021-05-30 03:16:19,697 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2021-05-30 03:16:23,841 : INFO : helper_functions : aws_s3_upload : File uploaded successfully to s3 bucket
+2021-05-30 03:24:12,647 : INFO : controller : load_config : loading Config file.
+2021-05-30 03:24:12,647 : INFO : controller : load_config : Config file loaded successfully.
+2021-05-30 03:24:12,648 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:24:12,649 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 03:24:12,649 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 03:24:19,681 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 03:24:19,886 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 03:24:19,981 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 03:24:20,548 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:24:20,548 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'somerandomfile'
+2021-05-30 03:24:20,548 : INFO : helper_functions : create_csv : Loading the xml file
+2021-05-30 03:24:20,550 : INFO : helper_functions : create_csv : Parsing the xml file...
+2021-05-30 03:24:20,550 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2021-05-30 03:24:27,984 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2021-05-30 03:24:28,190 : INFO : helper_functions : create_csv : Dropping empty rows
+2021-05-30 03:24:28,276 : INFO : helper_functions : create_csv : Creating the CSV file
+2021-05-30 03:24:28,276 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\kqcA CK j \\DLTINS_20210117_01of01.csv'
+2021-05-30 03:24:28,568 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:24:29,892 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:24:29,892 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:24:30,339 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:24:31,048 : INFO : helper_functions : download : xml file downloaded
+2021-05-30 03:24:31,049 : INFO : helper_functions : download : Downloading the xml file.
+2021-05-30 03:24:32,630 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2021-05-30 03:24:32,630 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2021-05-30 03:24:32,631 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2021-05-30 03:24:32,631 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'D:\\SteelEyeAssignment\\xml_files\\sourcefile.pwg'
+2021-05-30 03:24:32,632 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 03:24:32,993 : INFO : helper_functions : unzip_file : Compressed file extracted
+2021-05-30 03:24:32,993 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 03:24:32,994 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\kqcA CK j \\DLTINS_20210117_01of01.xml'
+2021-05-30 03:24:32,994 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2021-05-30 03:24:32,994 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\somerandomfile'
+2023-04-23 17:02:45,025 : INFO : controller : load_config : loading Config file.
+2023-04-23 17:02:45,026 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 17:02:45,026 : INFO : controller : main : Extracting xml source file url
+2023-04-23 17:02:45,026 : INFO : controller : main : Extracting csv file path
+2023-04-23 17:02:45,027 : INFO : controller : main : Extracting xml file download path
+2023-04-23 17:02:45,027 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 17:02:45,027 : INFO : controller : main : Calling download function
+2023-04-23 17:02:45,027 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 17:02:46,784 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 17:02:46,785 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 17:02:46,785 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 17:02:46,797 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 17:02:46,797 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 17:02:46,797 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 17:02:46,797 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 17:02:46,797 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 17:02:46,797 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 17:02:46,797 : INFO : controller : main : Calling download function
+2023-04-23 17:02:46,797 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 17:03:00,140 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 17:03:00,142 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 17:03:00,683 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 17:03:00,683 : INFO : controller : main : Calling create csv function
+2023-04-23 17:03:00,683 : INFO : helper_functions : create_csv : Creating CSV file path
+2023-04-23 17:03:00,683 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 17:03:01,706 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 17:03:01,706 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 17:03:10,136 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 17:03:10,301 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 17:03:10,516 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 17:03:11,285 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 17:03:11,690 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Invalid endpoint: https://s3..amazonaws.com
+2023-04-23 17:03:57,055 : INFO : controller : load_config : loading Config file.
+2023-04-23 17:03:57,056 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 17:03:57,056 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 17:03:57,058 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 17:03:57,058 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 17:04:07,575 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 17:04:07,743 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 17:04:07,973 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 17:04:09,220 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 17:04:09,221 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'somerandomfile'
+2023-04-23 17:04:09,221 : INFO : helper_functions : create_csv : Creating CSV file path
+2023-04-23 17:04:09,224 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 17:04:09,229 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 17:04:09,229 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 17:04:18,854 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 17:04:19,026 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 17:04:19,265 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 17:04:19,266 : ERROR : helper_functions : create_csv : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\kqcA CK j \\DLTINS_20210117_01of01.csv'
+2023-04-23 17:04:19,593 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 17:04:20,342 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 17:04:20,342 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 17:04:20,840 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 17:04:21,541 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 17:04:21,542 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 17:04:22,259 : ERROR : helper_functions : download : Error occurred - [WinError 3] The system cannot find the path specified: 'E:'
+2023-04-23 17:04:22,259 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 17:04:22,261 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 17:04:22,261 : ERROR : helper_functions : parse_source_xml : Error occurred - [Errno 2] No such file or directory: 'C:\\Users\\win10\\OneDrive\\Desktop\\New folder\\SteelEyeAssignment-master\\SteelEyeAssignment-master\\xml_files\\sourcefile.pwg'
+2023-04-23 17:04:22,262 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 17:04:22,792 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 17:04:22,792 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 17:04:22,792 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\kqcA CK j \\DLTINS_20210117_01of01.xml'
+2023-04-23 17:04:22,792 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 17:04:22,792 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: 'D:\\somerandomfile'
+2023-04-23 22:59:02,045 : INFO : controller : load_config : loading Config file.
+2023-04-23 22:59:02,047 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 22:59:02,047 : INFO : controller : main : Extracting xml source file url
+2023-04-23 22:59:02,047 : INFO : controller : main : Extracting csv file path
+2023-04-23 22:59:02,047 : INFO : controller : main : Extracting xml file download path
+2023-04-23 22:59:02,048 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 22:59:02,048 : INFO : controller : main : Calling download function
+2023-04-23 22:59:02,048 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 22:59:06,739 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 22:59:06,747 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 22:59:06,747 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 22:59:06,773 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 22:59:06,773 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 22:59:06,773 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 22:59:06,773 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 22:59:06,773 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 22:59:06,773 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 22:59:06,773 : INFO : controller : main : Calling download function
+2023-04-23 22:59:06,773 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:03:48,422 : ERROR : helper_functions : download : Error occurred - ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+2023-04-23 23:03:48,422 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 23:03:48,423 : ERROR : helper_functions : unzip_file : Error occurred while extracting - [Errno 2] No such file or directory: ''
+2023-04-23 23:08:34,649 : INFO : controller : load_config : loading Config file.
+2023-04-23 23:08:34,649 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 23:08:34,649 : INFO : controller : main : Extracting xml source file url
+2023-04-23 23:08:34,649 : INFO : controller : main : Extracting csv file path
+2023-04-23 23:08:34,649 : INFO : controller : main : Extracting xml file download path
+2023-04-23 23:08:34,649 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:08:34,649 : INFO : controller : main : Calling download function
+2023-04-23 23:08:34,649 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:08:36,411 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:08:36,413 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 23:08:36,413 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:08:36,424 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:08:36,425 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:08:36,425 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 23:08:36,425 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:08:36,425 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 23:08:36,425 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:08:36,425 : INFO : controller : main : Calling download function
+2023-04-23 23:08:36,425 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:18:06,307 : INFO : controller : load_config : loading Config file.
+2023-04-23 23:18:06,308 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 23:18:06,308 : INFO : controller : main : Extracting xml source file url
+2023-04-23 23:18:06,308 : INFO : controller : main : Extracting csv file path
+2023-04-23 23:18:06,308 : INFO : controller : main : Extracting xml file download path
+2023-04-23 23:18:06,308 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:18:06,308 : INFO : controller : main : Calling download function
+2023-04-23 23:18:06,309 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:18:07,050 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:18:07,050 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 23:18:07,050 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:18:07,050 : INFO : controller : main : Calling download function
+2023-04-23 23:18:07,050 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:18:55,382 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:18:55,382 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 23:18:55,879 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 23:18:55,879 : INFO : controller : main : Calling create csv function
+2023-04-23 23:18:55,879 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 23:18:56,828 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 23:18:56,828 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 23:19:05,082 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:19:05,241 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 23:19:05,455 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 23:19:06,166 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:19:06,426 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Provided region_name 'Asia Pacific (Sydney) ap-southeast-2' doesn't match a supported format.
+2023-04-23 23:20:46,901 : INFO : controller : load_config : loading Config file.
+2023-04-23 23:20:46,901 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 23:20:46,901 : INFO : controller : main : Extracting xml source file url
+2023-04-23 23:20:46,901 : INFO : controller : main : Extracting csv file path
+2023-04-23 23:20:46,901 : INFO : controller : main : Extracting xml file download path
+2023-04-23 23:20:46,901 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:20:46,901 : INFO : controller : main : Calling download function
+2023-04-23 23:20:46,901 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:20:48,647 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:20:48,647 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 23:20:48,647 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:20:48,647 : INFO : controller : main : Calling download function
+2023-04-23 23:20:48,647 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:21:47,021 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:21:47,021 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 23:21:47,636 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 23:21:47,636 : INFO : controller : main : Calling create csv function
+2023-04-23 23:21:47,637 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 23:21:48,668 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 23:21:48,668 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 23:21:58,476 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:21:58,655 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 23:21:58,983 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 23:21:59,852 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:21:59,917 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Provided region_name 'Asia Pacific (Sydney) ap-southeast-2' doesn't match a supported format.
+2023-04-23 23:28:14,725 : INFO : controller : load_config : loading Config file.
+2023-04-23 23:28:14,725 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 23:28:14,725 : INFO : controller : main : Extracting xml source file url
+2023-04-23 23:28:14,725 : INFO : controller : main : Extracting csv file path
+2023-04-23 23:28:14,725 : INFO : controller : main : Extracting xml file download path
+2023-04-23 23:28:14,725 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:28:14,725 : INFO : controller : main : Calling download function
+2023-04-23 23:28:14,725 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:28:16,459 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:28:16,459 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 23:28:16,459 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:28:16,459 : INFO : controller : main : Calling download function
+2023-04-23 23:28:16,459 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:29:11,754 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:29:11,754 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 23:29:12,303 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 23:29:12,303 : INFO : controller : main : Calling create csv function
+2023-04-23 23:29:12,303 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 23:29:13,301 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 23:29:13,301 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 23:29:21,586 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:29:21,737 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 23:29:21,940 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 23:29:22,656 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:29:22,745 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Provided region_name '"Asia Pacific (Sydney) ap-southeast-2"' doesn't match a supported format.
+2023-04-23 23:39:09,741 : INFO : controller : load_config : loading Config file.
+2023-04-23 23:39:09,742 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 23:39:09,742 : INFO : controller : main : Extracting xml source file url
+2023-04-23 23:39:09,743 : INFO : controller : main : Extracting csv file path
+2023-04-23 23:39:09,743 : INFO : controller : main : Extracting xml file download path
+2023-04-23 23:39:09,743 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:39:09,743 : INFO : controller : main : Calling download function
+2023-04-23 23:39:09,743 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:39:10,486 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:39:10,486 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 23:39:10,486 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:39:10,486 : INFO : controller : main : Calling download function
+2023-04-23 23:39:10,486 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:39:19,716 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:39:19,716 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 23:39:20,198 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 23:39:20,198 : INFO : controller : main : Calling create csv function
+2023-04-23 23:39:20,198 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 23:39:21,132 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 23:39:21,132 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 23:39:29,326 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:39:29,472 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 23:39:29,672 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 23:39:30,361 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:39:30,816 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2023-04-23 23:39:31,795 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Failed to upload C:\Users\win10\OneDrive\Desktop\New folder\SteelEyeAssignment-master\SteelEyeAssignment-master\csv_file\DLTINS_20210117_01of01.csv to subheshkumar/DLTINS_20210117_01of01.csv: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2023-04-23 23:40:27,433 : INFO : controller : load_config : loading Config file.
+2023-04-23 23:40:27,433 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-23 23:40:27,433 : INFO : controller : main : Extracting xml source file url
+2023-04-23 23:40:27,433 : INFO : controller : main : Extracting csv file path
+2023-04-23 23:40:27,433 : INFO : controller : main : Extracting xml file download path
+2023-04-23 23:40:27,433 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:40:27,433 : INFO : controller : main : Calling download function
+2023-04-23 23:40:27,433 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:40:28,145 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:40:28,145 : INFO : controller : main : Calling parse_source_xml function
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 23:40:28,145 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:40:28,145 : INFO : controller : main : Calling download function
+2023-04-23 23:40:28,145 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 23:40:37,385 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 23:40:37,385 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 23:40:37,931 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 23:40:37,947 : INFO : controller : main : Calling create csv function
+2023-04-23 23:40:37,947 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 23:40:38,885 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 23:40:38,885 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 23:40:47,344 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:40:47,481 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 23:40:47,684 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 23:40:48,428 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:40:48,752 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2023-04-23 23:41:09,245 : INFO : helper_functions : aws_s3_upload : File uploaded successfully to s3 bucket
